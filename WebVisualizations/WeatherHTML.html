@@ -5,6 +5,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Weather Data</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,18 +19,25 @@
     </header>
 
     <main class="container">
-        <section id="summary">
-            <h2>Summary: Latitude vs. X</h2>
-            <!-- BE SURE TO UPDATE URL 
-            <img id="Fig1" src="images/Fig1.JPG" alt="Fig1"> -->
-            <img id="Fig1" src="https://placehold.it/200x200" alt="Fig1">
-            <p>Summary text will go here. Summary text will go here.</p>
-        </section>
+        <div class="row">
+             <div class="col-md-8">
+                <div class="box">
+                <h2>Summary: Latitude vs. X</h2>
+                    <!-- BE SURE TO UPDATE URL 
+                    <img id="Fig1" src="images/Fig1.JPG" alt="Fig1"> -->
+                    <img id="Fig1" src="https://placehold.it/200x200" alt="Fig1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum perferendis voluptates error ullam placeat repellendus. Repellendus error repellat veritatis recusandae voluptates earum rerum consectetur itaque, ipsam nihil. Alias, nemo.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum perferendis voluptates error ullam placeat repellendus. Repellendus error repellat veritatis recusandae voluptates earum rerum consectetur itaque, ipsam nihil. Alias, nemo.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum perferendis voluptates error ullam placeat repellendus. Repellendus error repellat veritatis recusandae voluptates earum rerum consectetur itaque, ipsam nihil. Alias, nemo.</p>
+                </div>
+            </div>
+            <!--Second of Two Columns-->
+            <div class="col-md-4">
+                <div class="box1">
+                    <h3>Visualizations</h3>
+                    <img id="vis-images" src="https://placehold.it/200x200" alt="Vis Images">
+                </div>
+            </div>
+        </div>
 
-        <aside id="visualizations">
-            <h3>Visualizations</h3>
-            <img id="vis-images" src="https://placehold.it/200x200" alt="Vis Images">
-        </aside>
     </main>
 </body>
 
