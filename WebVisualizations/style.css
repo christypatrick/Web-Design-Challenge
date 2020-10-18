@@ -1,0 +1,54 @@
+body {
+    background:silver;
+  }
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: steelblue;
+    padding: 5px;
+    text-align: left;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+h2{
+    font-size: 30px;
+    color: steelblue;
+    font-weight: bold;
+    font-family: Geneva;
+    text-align: left;
+}
+
+h3{
+    font-size: 24px;
+    color: steelblue;
+    font-weight: bold;
+    font-family: Geneva;
+    text-align: left;
+}
+
+#Fig1{
+    float: left;
+  }
+
+  <!-- img{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+  } -->
+
+summary{
+    width: 70%;
+    background: white;
+}
+
+visualizations{
+    width: 30%;
+    background: white;
+    position: right;
+  }
