@@ -2,18 +2,14 @@ body {
     background:silver;
   }
 
-h1{
-    font-size: 24px;
-    font-family: Geneva;
-    font-weight: bold;
+#navbar-toggler{
     color: white;
     background: steelblue;
-    padding: 5px;
-    text-align: left;
 }
 
 .box {
     border:2px solid grey;
+    
     padding: 20px;
     background: white;
   }
@@ -22,14 +18,16 @@ h1{
     border:2px solid grey;
     padding: 20px;
     background: white;
+    height: 350px;
 }
 
 .container {
 
     margin: 0 auto;
+    padding-top: 20px;
   }
 
-h2{
+h1{
     font-size: 30px;
     color: steelblue;
     font-weight: bold;
@@ -47,11 +45,35 @@ h3{
 
 #Fig1{
     float: left;
-  }
-
-  <!-- img{
     width: 200px;
     height: 200px;
     margin-right: 10px;
-  } -->
+  }
 
+#vis-images1{
+    float: left;
+    width: 125px;
+    height: 125px;
+    margin-right: 10px;
+}
+
+#vis-images2{
+    float: left;
+    width: 125px;
+    height: 125px;
+    margin-right: 10px;
+}
+
+#vis-images3{
+    float: left;
+    width: 125px;
+    height: 125px;
+    margin-right: 10px;
+}
+
+#vis-images4{
+    float: left;
+    width: 125px;
+    height: 125px;
+    margin-right: 10px;
+}
