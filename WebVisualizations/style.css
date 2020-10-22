@@ -51,13 +51,6 @@ h4{
     text-align: center;
 }
 
-#Fig1{
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin-right: 10px;
-  }
-
 #vis-images1{
     float: left;
     width: 125px;
@@ -94,3 +87,5 @@ p.comparison_italics{
     width: 100%;
     border:none;
 }
+
+img.active{border:2px solid #ccc;}
