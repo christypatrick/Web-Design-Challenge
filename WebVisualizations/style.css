@@ -89,3 +89,8 @@ h4{
 p.comparison_italics{
     font-style: italic;
 }
+
+.img-responsive{
+    width: 100%;
+    border:none;
+}
